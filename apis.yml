@@ -1,7 +1,26 @@
 aid: kaodim
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kaodim.png
 name: Kaodim
-description: Kaodim is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Kaodim was a Southeast Asian on-demand home and local services marketplace founded in
+  2014 that connected consumers with service providers such as cleaners, plumbers, electricians,
+  aircon technicians, movers, tutors, and event professionals. Headquartered in Malaysia, it operated
+  regionally under Kaodim.com (Malaysia), Kaodim.sg (Singapore), Gawin.ph (Philippines), and Beres.id
+  (Indonesia), and raised venture funding from investors including 500 Global (500 Startups), Venturra
+  Capital, and Square Peg. The company ceased all operations on July 1, 2022, citing prolonged COVID-19
+  lockdowns, labor shortages, rising costs, and weakened demand. This profile was surfaced as a 500
+  Global portfolio company and added to the API Evangelist network; no public developer program or API
+  surface exists for the defunct company, so there are no API artifacts to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/kaodim/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Home Services
+- Local Services
+- Marketplace
+- On-Demand
+- Southeast Asia
+- Malaysia
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,8 @@ maintainers:
 common:
 - type: Website
   url: https://kaodim.kyte.site
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
